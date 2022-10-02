@@ -30,6 +30,15 @@ class _HomePageState extends State<HomePage> {
               },
               child: const Text("Custom Implicit Animation"),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed('animatedList');
+              },
+              child: const Text("Animated List"),
+            ),
           ],
         ),
       ),
