@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/home_page.dart';
 import 'animations/animated_list.dart';
+import 'animations/clip_path.dart';
 import 'animations/custom_implicit_animation.dart';
 import 'animations/implicit_animation.dart';
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         "implicitAnimation": (context) => const ImplicitAnimation(),
         "customImplicitAnimation": (context) => const CustomImplicitAnimation(),
         "animatedList": (context) => const AnimatedListScreen(),
+        "animatedClipPath": (context) => const AnimatedClipPath(),
       },
     );
   }

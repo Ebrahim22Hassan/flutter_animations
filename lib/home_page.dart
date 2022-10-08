@@ -39,6 +39,15 @@ class _HomePageState extends State<HomePage> {
               },
               child: const Text("Animated List"),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed('animatedClipPath');
+              },
+              child: const Text("Animated Clip Path"),
+            ),
           ],
         ),
       ),
