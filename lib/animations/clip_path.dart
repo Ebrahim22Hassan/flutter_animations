@@ -45,6 +45,10 @@ class _AnimatedClipPathState extends State<AnimatedClipPath>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Clip Path Animation"),
+        automaticallyImplyLeading: true,
+      ),
       body: Column(
         children: [
           Stack(

@@ -48,6 +48,15 @@ class _HomePageState extends State<HomePage> {
               },
               child: const Text("Animated Clip Path"),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed('crossFade');
+              },
+              child: const Text("Animated Cross Fade"),
+            ),
           ],
         ),
       ),
